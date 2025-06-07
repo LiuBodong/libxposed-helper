@@ -7,11 +7,11 @@ plugins {
 
 android {
     namespace = "io.github.libxposed.helper.kt"
-    compileSdk = 33
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 33
+        targetSdk = 35
     }
 
     buildFeatures {
@@ -49,7 +49,7 @@ android {
 }
 
 dependencies {
-    compileOnly("androidx.annotation:annotation:1.5.0")
+    compileOnly("androidx.annotation:annotation:1.9.1")
     compileOnly("io.github.libxposed:api:100")
     implementation(project(":helper"))
 }
